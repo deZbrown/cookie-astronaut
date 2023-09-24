@@ -8,7 +8,7 @@ import { MobileNav } from "@/components/mobile-nav"
 import { ModeToggle } from "@/components/theme-switcher"
 import { buttonVariants } from "@/components/ui/button"
 
-export function SiteHeader() {
+export function Navigation () {
   return (
     <header className="supports-backdrop-blur:bg-background/60 sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur">
       <div className="container flex h-14 items-center">
